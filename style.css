@@ -66,10 +66,20 @@ body {
     text-align: center;
 }
 
+#button-container::hover {
+    background-color: darkgray;
+    color: white;
+}
+
 button {
     font-family: 'Cabin';
     border: none;
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+}
+
+.stats-container {
+    display: flex;
+    align-items: center;
 }
